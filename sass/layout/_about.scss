@@ -1,0 +1,36 @@
+.about{
+    height: 100vh;
+    background-color: $color-white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__text{
+    font-size: 1.8rem;
+    font-weight: 300;
+    // padding: 20rem 39rem;
+    text-align: justify;
+    color: $color-primary-dark;
+
+
+        &--heading{
+
+    }
+    
+
+        &--body{
+
+    }
+}
+
+    &__img{
+
+        &--img{
+            object-fit: fill;
+            width: 100%;
+            padding: 2rem;
+        }
+    }
+}

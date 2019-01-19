@@ -1,0 +1,20 @@
+.painting{
+    height: 100vh;
+    background-color:$color-white;
+    position: relative;
+
+    &__title{
+        float: left;
+        font-weight: 300;
+    }
+
+    &__slide-box{
+        height: inherit;
+        width: auto;
+        text-align: center;
+    }
+
+}
+
+
+

@@ -1,0 +1,21 @@
+.lineart{
+    height: 100vh;
+    background-color:$color-white;
+    position: relative;
+
+    &__title{
+        float: left;
+    }
+
+    &__slide-box{
+        height: inherit;
+        width: auto;
+        text-align: center;
+    }
+
+}
+
+
+
+
+

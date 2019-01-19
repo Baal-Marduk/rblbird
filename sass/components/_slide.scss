@@ -1,0 +1,22 @@
+.slide{
+
+    &__img{
+    max-height: 100vh;
+    max-width: 100vw;
+    object-fit: contain;
+    }
+
+    &__arrow-btn{
+        color: $color-grey-dark-4 !important;
+        border: none !important;
+        font-family: lato;
+        box-shadow: none !important;
+    }
+
+}
+
+.arrow-icon{
+    width: 2rem;
+    height: 2rem;
+    color: black !important;
+}

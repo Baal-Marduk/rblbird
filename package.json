@@ -1,0 +1,18 @@
+{
+  "name": "rblbird",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glidejs/glide": "^3.2.4",
+    "fullpage.js": "^3.0.4",
+    "node-sass": "^4.10.0",
+    "sass": "^1.15.1"
+  },
+  "devDependencies": {},
+  "description": ""
+}
