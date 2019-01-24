@@ -4,6 +4,15 @@
     max-height: 100vh;
     max-width: 100vw;
     object-fit: contain;
+
+
+        // @include respond(phone-land){
+        //     margin-top: 0;
+        // }    
+
+        @include respond(phone){
+            max-height: 75vh;
+        }
     }
 
     &__arrow-btn{
@@ -14,6 +23,17 @@
     }
 
 }
+
+.glide,
+.glide2{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    }
+
 
 .arrow-icon{
     width: 2rem;

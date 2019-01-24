@@ -25,6 +25,8 @@
 
 /*breakpoint argument choices:
 -phone
+-phone-port
+-phone-land
 -tab-port
 -tab-land
 -big-desktop
@@ -33,6 +35,12 @@
 ORDER: Base + typography > general layout + grid > page layout > components
 */
 @mixin respond($breakpoint) {
+    @if $breakpoint == phone-port {
+        @media (max-width: 22.5em) and (orientation: portrait){ @content }; //360px + portrait
+    }
+    @if $breakpoint == phone-land {
+        @media (max-width: 37.5em) and (orientation: landscape){ @content }; //600px + landscape
+    }
     @if $breakpoint == phone {
         @media (max-width: 37.5em){ @content }; //600px
     }

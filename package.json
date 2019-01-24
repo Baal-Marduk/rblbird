@@ -10,9 +10,18 @@
   "dependencies": {
     "@glidejs/glide": "^3.2.4",
     "fullpage.js": "^3.0.4",
+    "node": "^11.7.0",
     "node-sass": "^4.10.0",
     "sass": "^1.15.1"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Baal-Marduk/rblbird.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Baal-Marduk/rblbird/issues"
+  },
+  "homepage": "https://github.com/Baal-Marduk/rblbird#readme"
 }
