@@ -114,8 +114,8 @@
         <footer> 
         </footer>
     </div>
-        <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
-        <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.4/fullpage.extensions.min.js"></script>
         <script type="text/javascript" src="js/glide.js"></script>
         <script type="text/javascript" src="js/fullpage.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -125,7 +125,6 @@
             var c = this.checked ? 'none' : 'block';
             var d = this.checked ? 'block' : 'none';
             $(".navigation__label").css('display',c);
-            //$(".navigation__nav").css('display',d);
         });
 
         $(".navigation__link").on("click",function(){

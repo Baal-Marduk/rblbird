@@ -2,6 +2,7 @@ new fullpage('#fullpage', {
     //options here
     autoScrolling:true,
     scrollHorizontally: true,
+    licenseKey: '040537C2-E09F42F7-8268A83E-40C27A9D',
 
 
     onLeave: function(origin, destination, direction){
