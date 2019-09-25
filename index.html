@@ -2,8 +2,9 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="title" content="RBLBIRD Portfolio | Painting - Drawing - Creation ">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="RBLBIRD Portfolio. Painting - Drawing - Creation ">
+        <meta name="description" content="Discover RBLBIRD Art | Paintings and drawings from many projects | Self made artist | Nature protection and Wilderness">
         
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans:300,400" rel="stylesheet"> 
@@ -66,12 +67,12 @@
                 <div class="lineart__slide-box glide">
                     <div class="glide__track" data-glide-el="track">
                         <ul class="glide__slides slide__img-box">
-                            <li class="glide__slide"><img src="img/lineart/bird.jpg" alt="bird" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/lineart/bird2v.jpg" alt="bird2" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/lineart/bun.jpg" alt="bun" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/lineart/chick.jpg" alt="chick" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/lineart/deer.jpg" alt="deer" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/lineart/run.jpg" alt="run" class="slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/lineart/bird.jpg" alt="bird" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/lineart/bird2v.jpg" alt="bird2" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/lineart/bun.jpg" alt="bun" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/lineart/chick.jpg" alt="chick" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/lineart/deer.jpg" alt="deer" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/lineart/run.jpg" alt="run" class="lazy slide__img"></li>
                         </ul>
                     </div>
                     <div class="glide__arrows" data-glide-el="controls">
@@ -87,13 +88,13 @@
                 <div class="painting__slide-box glide2">
                     <div class="glide__track" data-glide-el="track">
                         <ul class="glide__slides slide__img-box">
-                            <li class="glide__slide"><img src="img/painting/alea-jacta-est 1.png" alt="alea-jacta-est" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/painting/alea-jacta-est 2.png" alt="alea-jacta-est" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/painting/anthropocène.png" alt="anthropocène" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/painting/eggo.png" alt="eggo" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/painting/indigo-child.png" alt="initial-scale" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/painting/oldsoul.png" alt="oldsoul" class="slide__img"></li>
-                            <li class="glide__slide"><img src="img/painting/wake-up.png" alt="wake-up" class="slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/painting/alea-jacta-est 1.png" alt="alea-jacta-est" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/painting/alea-jacta-est 2.png" alt="alea-jacta-est" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/painting/anthropocène.png" alt="anthropocène" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/painting/eggo.png" alt="eggo" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/painting/indigo-child.png" alt="initial-scale" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/painting/oldsoul.png" alt="oldsoul" class="lazy slide__img"></li>
+                            <li class="glide__slide"><img data-src="img/painting/wake-up.png" alt="wake-up" class="lazy slide__img"></li>
                         </ul>
                     </div>
                     <div class="glide__arrows" data-glide-el="controls">
@@ -129,6 +130,7 @@
         <script type="text/javascript" src="js/glide.js"></script>
         <script type="text/javascript" src="js/fullpage.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
         <script type="text/javascript">
 
         $('#navi-toggle').change(function(){
@@ -149,10 +151,9 @@
             return false;
         });
 
-    
-
-                
-            
+        var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+        });
         </script>
     </body>
 
