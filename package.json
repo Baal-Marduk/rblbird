@@ -8,11 +8,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@glidejs/glide": "^3.2.4",
-    "fullpage.js": "^3.0.4",
-    "node": "^11.7.0",
-    "node-sass": "^4.10.0",
-    "sass": "^1.15.1"
+    "@glidejs/glide": "^3.4.1",
+    "fullpage.js": "^3.0.7",
+    "node": "^11.15.0",
+    "node-sass": "^4.12.0",
+    "npm": "^6.11.3",
+    "sass": "^1.22.12"
   },
   "devDependencies": {},
   "description": "",
