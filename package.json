@@ -11,7 +11,7 @@
     "@glidejs/glide": "^3.4.1",
     "fullpage.js": "^3.0.7",
     "node": "^11.15.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "npm": "^6.11.3",
     "sass": "^1.22.12"
   },
